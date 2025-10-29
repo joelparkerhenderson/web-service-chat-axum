@@ -22,7 +22,7 @@ Run the service using the default address 0.0.0.0:8080:
 cargo run
 ```
 
-Browse <https://localhost:8080/chat?sunshit>
+Browse <https://localhost:8080/chat?sunshine>
 
 You should see a web page with a chat about sunshine.
 

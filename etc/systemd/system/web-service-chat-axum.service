@@ -1,0 +1,13 @@
+[Unit]
+Description=Web service chat axum
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=centos
+ExecStart=PORT=10005 /opt/web-service-chat-axum/target/release/web-service-chat-axum
+
+[Install]
+WantedBy=multi-user.target
